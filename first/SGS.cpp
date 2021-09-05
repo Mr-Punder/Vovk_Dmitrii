@@ -4,9 +4,9 @@
 
 int main()
 {
-	const int energy = 10e7;
-	const int charge = 3 * 10e3;
-	const double resistance = 1 / 9 * 10e-11;
+	const double energy = 10e7;
+	const double charge = 3 * 10e3;
+	const double resistance = 1.0 / 9.0 * 10e-11;
 
 	std::string quantity;
 	double value;
@@ -19,7 +19,7 @@ int main()
 
 
 	if (quantity == "energy")
-		std::cout  << value <<" Dj = " << value * energy << " erg\n";
+		std::cout << value << " Dj = " << value * energy << " erg\n";
 	else if (quantity == "charge")
 		std::cout << value << " F = " << value * charge << " sm^-1\n";
 	else if (quantity == "resistance")

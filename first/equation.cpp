@@ -5,7 +5,7 @@
 
 int main()
 {
-	double a, b, c, det, solition1, solution2;
+	double a, b, c, det;
 	const double epsilon = std::numeric_limits <double> ::epsilon();
 	std::cout << "Enter square equation of form: ax^2 + bx + c = 0\na:";
 	std::cin >> a;
