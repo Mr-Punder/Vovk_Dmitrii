@@ -1,6 +1,5 @@
 #include <iostream>
 #include <iomanip>
-#include <sstream>
 
 int main() {
     std::string name, output;
@@ -17,12 +16,10 @@ int main() {
 
     std::cout << '\n' << "*************** OUTPUT ***************" << "\n\n";
 
-    std::stringstream ss;
-    ss << std::setw(8) << std::setfill('0') << std::hex << std::uppercase << price;
-    ss >> output;
+    
     std::cout << name << '\n';
-    std::cout << "Price:" << std::setw(19) << std::setfill('.') << output << "\n";
-    std::cout << "Has cash-back:" << std::boolalpha << std::setw(11) << hasCashback << "\n";
+    std::cout << "Price:" << std::setw(10) <<  std::setfill('.') << '.' << std::setw(8) << std::setfill('0') << output << "\n";
+    std::cout << "Has cash-back:" <<  std::setfill('0') << std::boolalpha << std::setw(11) << hasCashback << "\n";
     std::cout << "Max temperature:" << std::showpos << std::dec << std::setw(9) << temperature << "\n";
 
 
