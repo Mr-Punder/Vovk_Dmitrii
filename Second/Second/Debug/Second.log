@@ -1,4 +1,0 @@
-﻿  Forth.cpp
-C:\Users\goome\Documents\Vovk_Dmitrii\Second\Second\Forth.cpp(13,20): warning C4018: '<=': signed/unsigned mismatch
-C:\Users\goome\Documents\Vovk_Dmitrii\Second\Second\Forth.cpp(15,21): warning C4018: '<=': signed/unsigned mismatch
-  Second.vcxproj -> C:\Users\goome\Documents\Vovk_Dmitrii\Second\Debug\Second.exe
